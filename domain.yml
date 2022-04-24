@@ -1,7 +1,7 @@
 intents:
   - greet
   - goodbye
-  - user_query
+  - summary
   - feedback
   - test
   - positive
