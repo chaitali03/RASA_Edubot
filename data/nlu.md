@@ -6,7 +6,7 @@
 - good evening
 - hey there
 
-## intent:topic_query
+## intent:summary
 - what is [atom](topic)
 - summary of [atom](topic)
 - i want summary of [atom](topic)
