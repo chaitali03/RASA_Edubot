@@ -1,0 +1,60 @@
+intents:
+  - greet
+  - goodbye
+  - summary
+  - feedback
+  - test
+  - positive
+  - negative
+  - take_feedback
+  - summary_of_some_resources
+  - cummulativesummary
+entities:
+  - topic
+
+
+slots:
+  topic:
+    type: text
+  
+actions:
+- utter_greet
+- utter_goodbye
+- utter_summary
+- utter_feedback
+- utter_related
+- utter_test
+- utter_take_feedback
+- action_tell_definition
+- action_give_resource
+- utter_want_more
+- action_tell_cummulative_summary
+templates:
+
+  utter_greet:
+  - text: "Hi"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_want_more:
+  - text: "Want to know more about this topic?"
+
+  utter_summary:
+  - text: "Here is some more infromation about this topic:\n\n\n\n\n\n\n\n Did you like it"
+
+  utter_feedback:
+  - text: "Please give your feedback"
+
+  utter_related:
+  - text: "More topics related to this: \n 1. - \n 2. -"
+
+  utter_test:
+  - text: "Are you ready for test:\n Please click on this - link."
+
+  utter_take_feedback:
+  - text: "Thanks for your Feedback"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
