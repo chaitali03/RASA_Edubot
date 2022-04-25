@@ -48,9 +48,9 @@ This will create a base Happy/Sad Chatbot Conversational AI for you which then y
 ## Explaining the Directory Structure
 Now Rasa takes a completely different approach to dialogue management, instead of creating rules and enforcing them like traditional chatbots, it uses ML to learn the conversational patterns, from the example data(in the NLU files), and predicts how the assistant should respond in a specific situation, history, etc.
 
- <div style="display:flex;float:left" style="width : 1000px">
-    <img src="images/DirectoryStructure.png" height="600" width="35%" style="margin-right:20px;">
-    <p style="width:700px;">
+ <p style="float:left">
+    <img src="images/DirectoryStructure.png" height="650" width= "350"style="margin-right:20px;">
+    <p>
         Data:- This folder contains all NLU and STORIES files. <br><br>
         <strong>NLU</strong> stands for Natural language Understanding this file in Naive language contains your Natural language Data on which Rasa will train. NLU file ( nlu.yml) contains categories such as Intents and Entities, which were explained in the slides.
         <br><br>
@@ -64,10 +64,7 @@ Now Rasa takes a completely different approach to dialogue management, instead o
         <br><br>
         Lastly <strong>Credentials.yml and endpoints.yml</strong> are not that importnat files, in general Credentials.yml is use to connect to rasa-x which is a web based version of the chatbot and endpoints.yml is used to tell Rasa on which endpoint the Rasa Actions server is running.
     </p>
- </div>
-
-
-## Setting Up nlu.md
+ </p>
 
 ## For training
 To train your Rasa model you have 2 options:
