@@ -7,8 +7,7 @@ intents:
   - positive
   - negative
   - take_feedback
-  - summary_of_some_resources
-  - cummulativesummary
+
 entities:
   - topic
 
@@ -18,17 +17,18 @@ slots:
     type: text
   
 actions:
-- utter_greet
-- utter_goodbye
-- utter_summary
-- utter_feedback
-- utter_related
-- utter_test
-- utter_take_feedback
-- action_tell_definition
-- action_give_resource
-- utter_want_more
-- action_tell_cummulative_summary
+  - utter_greet
+  - utter_goodbye
+  - utter_summary
+  - utter_feedback
+  - utter_related
+  - utter_test
+  - utter_take_feedback
+  - action_tell_definition
+  - action_give_resource
+  - utter_want_more
+# - action_tell_cummulative_summary
+
 templates:
 
   utter_greet:
@@ -55,6 +55,4 @@ templates:
   utter_take_feedback:
   - text: "Thanks for your Feedback"
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+

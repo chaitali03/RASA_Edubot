@@ -18,20 +18,12 @@
  * negative
   - utter_goodbye
 
-## cummulativesummary path
-* cumulativesummary
-  - action_tell_cummulative_summary
-
 ## feedback path
 * feedback
   - utter_feedback
 * take_feedback
   - utter_take_feedback
   
-## test path
-* test
-  - utter_test
-
 ## say goodbye
 * goodbye
   - utter_goodbye
