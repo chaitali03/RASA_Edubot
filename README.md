@@ -85,7 +85,8 @@ For inferencing the model again there are 2 methods that you can utilize:
 ```
 rasa shell nlu
 ```
-which would give you responses which look something like shown below.
+which would give you responses which look something like shown below. <br>
+
 2. To run an entire simulation of your entire chatbot, you can run:
 ```
 rasa shell
