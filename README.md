@@ -56,9 +56,9 @@ Now Rasa takes a completely different approach to dialogue management, instead o
         <br><br>
         Next comes the pipeline which tells Rasa on how to learn from these intents and Entities which is specified inside the <strong> config.yml </strong>
         <br><br>
-        The component responsible for maangging this situation and contextutal data is written inside the stories.md file, where we write different ways in which a conversation between a user and a bot might go.
+        The component responsible for managing this situation and contextual data is written inside the stories.md file, where we write different ways in which a conversation between a user and a bot might go.
         <br><br>
-        <strong>Domain file</strong> this is the universe of your chatbot. It contains all the intent’s you want to train on and all the utters ( responses ) for each intent.
+        <strong>Domain file</strong> this is the universe of your chatbot. It contains all the intent’s you want to train on and all the utters ( responses ) for each intent and some other important data like slots which remain stored throughout the duration of a talk.
         <br><br>
         Finally, one most important file is the <strong>actions.py</strong> file which is where we will write our custom actions(response) to particular queries. Ex: Maybe finding the definition of a word when queried for it.
         <br><br>
