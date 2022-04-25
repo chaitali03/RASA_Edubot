@@ -50,7 +50,7 @@ Now Rasa takes a completely different approach to dialogue management, instead o
 
  <div style="display:flex;float:left" style="width : 1000px">
     <img src="images/DirectoryStructure.png" height="600" width="35%" style="margin-right:20px;">
-    <p style="width:700px;">
+    <p style="width:500px;">
         Data:- This folder contains all NLU and STORIES files. <br><br>
         <strong>NLU</strong> stands for Natural language Understanding this file in Naive language contains your Natural language Data on which Rasa will train. NLU file ( nlu.yml) contains categories such as Intents and Entities, which were explained in the slides.
         <br><br>
