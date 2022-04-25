@@ -72,7 +72,7 @@ To train your Rasa model you have 2 options:
 ```
 rasa train nlu
 ```
-2. If you want to train your entire chatbot including the pathways and responses and your custom actions, then you can run this command inside:
+2. If you want to train your entire chatbot including the pathways/stories and responses and your custom actions, then you can run this command inside:
 ```
 rasa train
 ```
