@@ -100,6 +100,18 @@ rasa run actions
 
 This would run a shell version of you `entire rasa chatbot`.
 
+## To run the RASA server
+rasa run -m models --enable-api --cors "*" --debug
+
+This starts the RASA server and it can be accessed using REST api
+
+Following is the link to access the server
+http://<host>:<port>/webhooks/callback/webhook
+ 
+Localhost server at:
+http://localhost:5005/webhooks/rest/webhook
+
 
 ## For Frontend
-We will have to integrate this with a separate library.
+RASA can be integrated with websites using RASA chat widget. 
+Chat interface that ships with Rasa X can be used seperately for maily testing purposes 
