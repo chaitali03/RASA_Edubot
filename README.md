@@ -92,7 +92,14 @@ which would give you responses which look something like shown below. <br>
 rasa shell
 ```
 
+3. To run the actions server, use command:
+```
+rasa run actions
+```
+
+
 This would run a shell version of you `entire rasa chatbot`.
 
 
 ## For Frontend
+We will have to integrate this with a separate library.
