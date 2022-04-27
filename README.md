@@ -113,5 +113,5 @@ http://localhost:5005/webhooks/rest/webhook
 
 
 ## For Frontend
-RASA can be integrated with websites using RASA chat widget. 
+RASA can be integrated with websites using RASA chat widget. (https://rasa.com/docs/rasa/connectors/your-own-website/#chat-widget)
 Chat interface that ships with Rasa X can be used seperately (mainly for testing purposes). 
